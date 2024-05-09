@@ -59,7 +59,7 @@ crafts:
       
   - type: STR_F15EAGLEACTRAISER
     requires:
-      - STR_NXTGENFGHTRTRANS
+      - STR_F15EAGLEACTRAISER
     costBuy: 1600000
     costSell: 600000
     sprite: 978
@@ -134,7 +134,7 @@ crafts:
 
   - type: STR_PHEONIXHELLRAISER
     requires:
-      - STR_NXTGENFGHTRTRANS
+      - STR_PHEONIXHELLRAISER
     costBuy: 1700000
     costSell: 650000
     sprite: 978
@@ -210,7 +210,7 @@ crafts:
 
   - type: STR_VENTURESTAR
     requires:
-      - STR_NXTGENFGHTRTRANS
+      - STR_VENTURESTAR
     costBuy: 2100000
     costSell: 700000
     sprite: 978
