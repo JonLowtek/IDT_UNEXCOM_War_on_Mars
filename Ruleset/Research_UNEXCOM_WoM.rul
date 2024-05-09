@@ -1138,7 +1138,7 @@ research:
     dependencies:
       - STR_NATO_SUPPORT_RESEARCH
     disables:
-      - STR_USA_SUPPORT_RESEARCH
+      - STR_USA_PLASMA_WEAPONS
       - STR_USSR_PLASMA_WEAPONS
 
   - name: STR_USSR_PLASMA_WEAPONS
@@ -1284,7 +1284,7 @@ research:
     dependencies:
       - STR_LASER_HEAVY_WEAPONS_SELECTION
     disables:
-      - STR_USSR_LASER_HEAVY_WEAPONS
+      - STR_USA_LASER_HEAVY_WEAPONS
       - STR_USSR_LASER_HEAVY_WEAPONS
 
 #########################################
@@ -1323,8 +1323,8 @@ research:
     dependencies:
       - STR_LASER_CLOSE_RANGE_WEAPONS_SELECTION
     disables:
-      - STR_USA_LASER_RIFLES
-      - STR_NATO_LASER_RIFLES
+      - STR_USA_LASER_CLOSE_RANGE_WEAPONS
+      - STR_NATO_LASER_CLOSE_RANGE_WEAPONS
 
   - name: STR_USSR_LASER_HEAVY_WEAPONS
     cost: 50
@@ -1332,8 +1332,8 @@ research:
     dependencies:
       - STR_LASER_HEAVY_WEAPONS_SELECTION
     disables:
-      - STR_USA_LASER_RIFLES
-      - STR_NATO_LASER_RIFLES
+      - STR_USA_LASER_HEAVY_WEAPONS
+      - STR_NATO_LASER_HEAVY_WEAPONS
 
 ####################
   - name: STR_ALIENS_ONLY
