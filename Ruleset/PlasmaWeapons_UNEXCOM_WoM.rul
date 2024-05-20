@@ -1395,36 +1395,36 @@ research:
 
 # New Armor
 
-  - name: STR_PLASMA_PISTOL
-    cost: 0
-    points: 10
-    needItem: true
-    requires:
-      - STR_ALIENS_ONLY
-  - name: STR_PLASMA_PISTOL_CLIP
-    cost: 0
-    requires:
-      - STR_ALIENS_ONLY
-  - name: STR_PLASMA_RIFLE
-    cost: 0
-    points: 10
-    needItem: true
-    requires:
-      - STR_ALIENS_ONLY
-  - name: STR_PLASMA_RIFLE_CLIP
-    cost: 0
-    requires:
-      - STR_ALIENS_ONLY
-  - name: STR_HEAVY_PLASMA
-    cost: 0
-    points: 10
-    needItem: true
-    requires:
-      - STR_ALIENS_ONLY
-  - name: STR_HEAVY_PLASMA_CLIP
-    cost: 0
-    requires:
-      - STR_ALIENS_ONLY
+#  - name: STR_PLASMA_PISTOL
+#    cost: 0
+#    points: 10
+#    needItem: true
+#    requires:
+#      - STR_ALIENS_ONLY
+#  - name: STR_PLASMA_PISTOL_CLIP
+#    cost: 0
+#    requires:
+#      - STR_ALIENS_ONLY
+#  - name: STR_PLASMA_RIFLE
+#    cost: 0
+#    points: 10
+#    needItem: true
+#    requires:
+#      - STR_ALIENS_ONLY
+#  - name: STR_PLASMA_RIFLE_CLIP
+#    cost: 0
+#    requires:
+#      - STR_ALIENS_ONLY
+#  - name: STR_HEAVY_PLASMA
+#    cost: 0
+#    points: 10
+#    needItem: true
+#    requires:
+#      - STR_ALIENS_ONLY
+#  - name: STR_HEAVY_PLASMA_CLIP
+#    cost: 0
+#    requires:
+#      - STR_ALIENS_ONLY
 
 extraSprites:
   - type: BIGOBS.PCK
