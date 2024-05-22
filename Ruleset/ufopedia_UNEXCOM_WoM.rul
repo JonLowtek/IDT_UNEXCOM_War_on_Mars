@@ -20,7 +20,6 @@ ufopaedia:
   - delete: STR_HIGH_EXPLOSIVE
   - delete: STR_MOTION_SCANNER
   - delete: STR_STUN_ROD
-  - delete: STR_PSI_AMP
   - delete: STR_MEDI_KIT
   - delete: STR_LASER_PISTOL
   - delete: STR_LASER_RIFLE
@@ -148,7 +147,6 @@ ufopaedia:
   - delete: STR_HIGH_EXPLOSIVE
   - delete: STR_MOTION_SCANNER
   - delete: STR_MEDI_KIT
-  - delete: STR_PSI_AMP
   - delete: STR_STUN_ROD
   - delete: STR_HEAVY_PLASMA
   - delete: STR_HEAVY_PLASMA_CLIP
