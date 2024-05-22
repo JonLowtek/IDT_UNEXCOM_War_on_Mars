@@ -497,6 +497,36 @@ items:
   - delete: STR_CANNON
   - delete: STR_CANNON_ROUNDS_X50
 
+  - type: STR_BASIC_COLONY_SUPPLIES
+    categories: [STR_UNEXCOM_TECH, STR_MISC]
+    size: 0.5
+    costSell: 10000
+    weight: 50
+    bigSprite: 3020
+    floorSprite: 3020
+    costThrow:
+      energy: 20
+    battleType: 10
+    armor: 40
+    invWidth: 2
+    invHeight: 2
+    listOrder: 0
+
+  - type: STR_BETTER_COLONY_SUPPLIES
+    categories: [STR_UNEXCOM_TECH, STR_MISC]
+    size: 0.5
+    costSell: 9000
+    weight: 50
+    bigSprite: 3020
+    floorSprite: 3020
+    costThrow:
+      energy: 20
+    battleType: 10
+    armor: 40
+    invWidth: 2
+    invHeight: 2
+    listOrder: 0
+
 manufacture:
   - delete: STR_MOTION_SCANNER
   - delete: STR_STUN_ROD
@@ -548,6 +578,24 @@ manufacture:
           STR_5_56MM_NATO_RIFLE_X30: 5
           STR_AK79_RIFLE: 5
           STR_7_62MM_SOVIET_RIFLE_X40: 5
+
+  - name: STR_BASIC_COLONY_SUPPLIES
+    category: STR_MISC
+    space: 0
+    time: 24
+    cost: 9000
+    producedItems:
+      STR_BASIC_COLONY_SUPPLIES: 1
+
+  - name: STR_BETTER_COLONY_SUPPLIES
+    category: STR_MISC
+    requires:
+      - STR_BETTER_COLONY_SUPPLIES
+    space: 0
+    time: 24
+    cost: 7500
+    producedItems:
+      STR_BETTER_COLONY_SUPPLIES: 1
 
 craftWeapons:
 #<delete>

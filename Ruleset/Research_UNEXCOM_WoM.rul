@@ -1992,4 +1992,19 @@ research:
     dependencies:
       - STR_HEARTS_AND_MINDS_FEED_THE_SNAKEMEN
 
+############################### Make money by manufacturing supplies
+
+  - name: STR_BASIC_COLONY_SUPPLIES
+    cost: 50
+    points: 10
+
+  - name: STR_BETTER_COLONY_SUPPLIES
+    cost: 250
+    points: 10
+    dependencies:
+      - STR_BASIC_COLONY_SUPPLIES
+      - STR_ALIEN_FOOD
+      - STR_ALIEN_SURGERY
+      - STR_ALIEN_ENTERTAINMENT
+
 ############################### Extended Lore

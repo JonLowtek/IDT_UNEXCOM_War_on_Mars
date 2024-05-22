@@ -1960,6 +1960,15 @@ en-US:
       
       STR_SUPPLY_CRATE: "Supply Crate"
 
+###################################
+###### Manufacturing Money ########
+###################################
+
+      STR_BASIC_COLONY_SUPPLIES: "Basic Colony Supplies"
+      STR_BASIC_COLONY_SUPPLIES_UFOPEDIA: "On Mars we can not exclusivly rely the support of our funding nations to keep things going. Scavenging from the insurgents is a necessity, but to fully supply our facilities and outposts we require an engineering team and workshops. Manufacture basic colony supplies and sell them to ensure the success of the counter insurgency efforts."
+
+      STR_BETTER_COLONY_SUPPLIES: "Better Colony Supplies"
+      STR_BETTER_COLONY_SUPPLIES_UFOPEDIA: "Our research into civilian alien technologies and their manufacturing processes improved our ability to supply our facilities and outposts, increasing the margin we can use to fuel the counter insurgency efforts."
 
 #######################
 ###### EVENTS ########
